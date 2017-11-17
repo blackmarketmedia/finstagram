@@ -40,6 +40,6 @@ get '/' do
   
   @posts = [@post_shark, @post_whale, @post_marlin].to_s
   
-  erb( :index)
+  erb :index
 
 end
